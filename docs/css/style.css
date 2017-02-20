@@ -266,3 +266,7 @@ button:focus {
     margin-left: 1em;
   }
 }
+
+.content span {
+    transition: transform .3s ease, opacity .4s ease;
+}

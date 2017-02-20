@@ -5,3 +5,4 @@ export * as scaleDown from "./scale-down";
 export * as scaleUp from "./scale-up";
 export * as flip from "./flip";
 export * as helix from "./helix";
+export * as slideUp from "./slide-up";

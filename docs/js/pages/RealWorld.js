@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import StackGrid, { transitions, easings } from "../../../src/";
 
-const transition = transitions.scaleDown;
+const transition = transitions.slideUp;
 
 const images = [
   { src: "./images/photos/photo01.jpg", label: "Sample image 1" },

@@ -141,7 +141,7 @@ export default class GridItem extends Component {
 
   getPositionStyles(rect: Rect, zIndex: number): Object {
     return {
-      translateX: `${rect.left}px`,
+      left: `${rect.left}px`,
       translateY: `${rect.top}px`,
       zIndex
     };
@@ -209,9 +209,7 @@ export default class GridItem extends Component {
       display: "block",
       position: "absolute",
       top: 0,
-      left: 0,
-      width: rect.width,
-      transition: transition(["opacity", "transform"], duration, easing)
+      width: rect.width
     }, units, vendorPrefix, userAgent);
 
     /* eslint-disable no-return-assign */
